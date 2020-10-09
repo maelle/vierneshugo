@@ -29,7 +29,7 @@ image:
 projects: []
 ---
 
-No sé qué.
+No sé qué. Ahora si sé qué.
 
 ```{r plot}
 plot(1:10)
