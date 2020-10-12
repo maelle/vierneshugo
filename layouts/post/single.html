@@ -1,0 +1,27 @@
+{{- define "main" -}}
+
+<article class="article">
+
+  {{ partial "page_header" . }}
+
+  <div class="article-container">
+
+    <div class="article-style">
+      {{ .Content }}
+    </div>
+{{ if .Params.comments | default "true" }}
+<script src="https://utteranc.es/client.js"
+        repo="maelle/vierneshugo"
+        issue-term="pathname"
+        label="web-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+{{ end }}
+    {{ partial "page_footer" . }}
+
+  </div>
+</article>
+
+{{- end -}}

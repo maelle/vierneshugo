@@ -12,6 +12,7 @@ date: "2016-04-20T00:00:00Z"
 lastmod: "2019-04-17T00:00:00Z"
 featured: false
 draft: false
+comments: false
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
